@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="_css/main.css" rel="stylesheet" media="screen, projection">
+        <title>CSS Animation Drop and Expand</title>
+    </head>
+    <body>
+        <div id="container"><br><br><br>
+            <div id="boxA" class="slideA">
+                <p>HeaderA</p>
+            </div>
+            <div id="boxB" class="slideB">
+                <p>HeaderB</p>
+            </div>
+            <div id="boxC" class="slideC">
+                <p>HeaderC</p>
+            </div>
+            <div id="boxD" class="slideD">
+                <p>HeaderD</p>
+            </div>
+            <div id="boxE" class="slideE">
+                <p>HeaderE</p>
+            </div>
+            <div id="boxF" class="slideF">
+                <p>HeaderF</p>
+            </div>
+            <div id="boxG" class="slideG">
+                <p>HeaderG</p>
+            </div>
+            <div id="boxH" class="slideH">
+                <p> <===  Click to Expand the Headers</p>
+            </div>    
+        </div>
+
+
+<script>
+
+function slideAA() {
+    let A = document.getElementById("boxA");
+    A.addEventListener("click", function animationA() {
+        A.style.animationName = "slidA"; 
+        A.style.animationDuration = "5s";
+        A.style.animationIterationCount = "initial";
+        A.style.animationFillMode = "both";
+        B.style.animationTimingFunction = "ease-in-out";
+    });
+    A.addEventListener("click", function changeBCA(callback) {
+        setTimeout(() => {
+            A.style.backgroundColor = "orange";
+        callback(); }, 3500);
+    });
+}
+slideAA();
+
+
+function slideBB() {
+    let B = document.getElementById("boxB");
+    B.addEventListener("click", function animationB() {
+        B.style.animationName = "slidB";
+        B.style.animationDuration = "5s";
+        B.style.animationIterationCount = "initial";
+        B.style.animationFillMode = "both";
+        B.style.animationTimingFunction = "ease-in-out";
+    });
+    B.addEventListener("click", function changeBCB(callback) {
+        setTimeout(() => {
+            B.style.backgroundColor = "purple";
+        callback(); }, 3500);
+    });
+}
+slideBB();
+
+
+function slideCC() {
+    let C = document.getElementById("boxC");
+    C.addEventListener("click", function animationC() {
+        C.style.animationName = "slidC";
+        C.style.animationDuration = "5s";
+        C.style.animationIterationCount = "initial";
+        C.style.animationFillMode = "both";
+        B.style.animationTimingFunction = "ease-in-out";
+    })
+    C.addEventListener("click", function changeBCC(callback) {
+        setTimeout(() => {
+            C.style.backgroundColor = "pink";
+        callback(); }, 3500);
+    });
+}
+slideCC();
+
+
+function slideDD() {
+    let D = document.getElementById("boxD");
+    D.addEventListener("click", function animationD() {
+        D.style.animationName = "slidD";
+        D.style.animationDuration = "5s";
+        D.style.animationIterationCount = "initial";
+        D.style.animationFillMode = "both";
+        B.style.animationTimingFunction = "ease-in-out";
+    })
+    D.addEventListener("click", function changeBCD(callback) {
+        setTimeout(() => {
+            D.style.backgroundColor = "green";
+        callback(); }, 3500);
+    });
+}
+slideDD();
+
+
+function slideEE() {
+    let E = document.getElementById("boxE");
+    E.addEventListener("click", function animationE() {
+        E.style.animationName = "slidE";
+        E.style.animationDuration = "5s";
+        E.style.animationIterationCount = "initial";
+        E.style.animationFillMode = "both";
+        B.style.animationTimingFunction = "ease-in-out";
+    })
+    E.addEventListener("click", function changeBCE(callback) {
+        setTimeout(() => {
+            E.style.backgroundColor = "red";
+        callback(); }, 3500);
+    });
+}
+slideEE();
+
+
+function slideFF() {
+    let F = document.getElementById("boxF");
+    F.addEventListener("click", function animationF() {
+        F.style.animationName = "slidF";
+        F.style.animationDuration = "5s";
+        F.style.animationIterationCount = "initial";
+        F.style.animationFillMode = "both";
+        B.style.animationTimingFunction = "ease-in-out";
+    })
+    F.addEventListener("click", function changeBCF(callback) {
+        setTimeout(() => {
+            F.style.backgroundColor = "salmon";
+        callback(); }, 3500);
+    });
+}
+slideFF();
+
+
+function slideGG() {
+    let G = document.getElementById("boxG");
+    G.addEventListener("click", function animationG() {
+        G.style.animationName = "slidG";
+        G.style.animationDuration = "5s";
+        G.style.animationIterationCount = "initial";
+        G.style.animationFillMode = "both";
+        B.style.animationTimingFunction = "ease-in-out";
+    })
+    G.addEventListener("click", function changeBCG(callback) {
+        setTimeout(() => {
+            G.style.backgroundColor = "yellow";
+        callback(); }, 3500);
+    });
+}
+slideGG();
+
+</script>
+
+
+    </body>
+</html>
