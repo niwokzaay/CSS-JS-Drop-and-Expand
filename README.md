@@ -1,4 +1,10 @@
 # CSS-JS-Drop-and-Expand
 
-This is simple newbie project. It involves the use of some CSS properties in JavaScrip code. Its Fun and the idea is that it represents a part of UI component that can be used for websites that have many headers. The header or titles once clicked will react and drop down and expand on the page body!.
-You can adjust this as you like!
+Your users should be able to: 
+
+- click on a header and expand and it to view its content
+- Will be updated in the future
+- CSS and JS interplay
+
+- Challenge by Niwok Zaay Coded by Niwok Zaay
+  
